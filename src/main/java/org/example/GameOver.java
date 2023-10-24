@@ -6,21 +6,21 @@ public class GameOver implements JogoEstado{
         return instance;
     }
     public String getEstado() {
-        return "GAME OVER!";
+        return "GAME OVER";
     }
     public String comecar(Jogo jogo) {
-        return "Jogo não iniciado.";
+        return "JOGO NÃO INICIADO";
     }
     public String jogar(Jogo jogo) {
-        return "Jogo em andamendo não realizado.";
+        return "JOGO EM ANDAMENTO NÃO REALIZADO";
     }
     public String perder(Jogo jogo) {
-        return "Game Over não realizado.";
+        return "GAME OVER NÃO REALIZADO";
     }
     public String ganhar(Jogo jogo) {
-        return "Vitoria não realizada.";
+        return "VITÓRIA NÃO REALIZADA";
     }
     public String pausar(Jogo jogo) {
-        return "Jogo pausado não realizado.";
+        return "JOGO PAUSADO NÃO REALIZADO";
     }
 }
